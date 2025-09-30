@@ -8,173 +8,145 @@
 </head>
 <body>
   <div class="container">
-     <header class="profile-header">
-    <img src="profile.png" alt="Profile Photo" class="profile-image" />
-    <div class="profile-text">
-  <h1>Suleman Afzal</h1>
-  <p class="subtitle">Android App Developer</p>
-  <p>
-    Peshawar, Pakistan · 
-    <a href="mailto:afzalsuleman@gmail.com">afzalsuleman@gmail.com</a> · 
-    <a href="tel:+923478297650">+92 347 8297650</a>
-  </p>
-  <div class="links">
-    <a href="https://github.com/sulemanafzaldev" target="_blank">GitHub</a> |
-    <a href="https://linkedin.com/in/suleman-afzal-70a381220/" target="_blank">LinkedIn</a>
-  </div>
-  <div class="download-cv">
-    <a href="Suleman_Afzal_CV.pdf" class="download-button" download>Download CV</a>
-  </div>
-</header>
-
-
-   
- <section>
-  <h2>Summary</h2>
-  <p>
-    Detail-oriented and results-driven Android Developer with over 2 years of hands-on experience in building intuitive, high-performance mobile applications using Kotlin and Java. Skilled in modern Android architectures like MVVM, Jetpack Compose, and RESTful API integration. Passionate about crafting clean, maintainable code and delivering smooth, responsive user experiences across a range of devices. Adept at collaborating in agile environments and taking projects from concept to deployment with minimal supervision. Continuously learning and adapting to the latest tools, technologies, and design trends to create impactful mobile solutions.
-  </p>
-</section>
-
-
-    <section>
-      <h2>Experience</h2>
-      <div class="job">
-        <h3>Android Developer — Next Generation Circle</h3>
-        <span class="date">2023 – Present</span>
-      <ul style="line-height: 1.8; font-size: 16px;">
-  <li>
-    <strong>Weather App</strong><br>
-    • Developed a modern weather app using <strong>MVVM architecture</strong> and <strong>Jetpack Compose</strong>.<br>
-    • Integrated real-time weather data via <strong>OpenWeatherMap API</strong> with location access.<br>
-    • Implemented hourly/daily forecasts, city search, and dynamic weather icons.<br>
-    • Ensured a responsive, clean UI compatible across multiple devices.
-  </li>
-
-  <li>
-    <strong>News App</strong><br>
-    • Built a dynamic news app powered by <strong>NewsAPI</strong> for breaking news and headlines.<br>
-    • Added category filters (Tech, Health, Sports), search functionality, and bookmarking.<br>
-    • Used <strong>RecyclerView, ViewModel</strong>, and <strong>LiveData</strong> for smooth content updates.<br>
-    • Integrated offline caching and article sharing via Room and Intent APIs.
-  </li>
-
-  <li>
-  <strong>Darzi App</strong><br>
-  • Built a tailor order management app using <strong>Firebase Firestore</strong> for real-time database and <strong>Firebase Storage</strong> for image uploads.<br>
-  • Enabled CRUD operations for customer orders, delivery tracking, and status updates.<br>
-  • Integrated <strong>MVVM architecture</strong> with <strong>Hilt</strong> and <strong>ViewModel + LiveData</strong> for clean and scalable code.<br>
-  • Designed a modern UI using <strong>Material Design</strong> and <strong>DataBinding</strong>.
-</li>
-
-
-<li>
-  <strong>E-Learning App (Yeri App)</strong><br>
-  • Built a module-based learning app where each module contains its own quizzes and progress tracking.<br>
-  • Integrated with a custom REST API and used Hilt for dependency injection.<br>
-  • Implemented a personalized user dashboard and a modular, scalable architecture.
-</li>
-
-
-  <li>
-    <strong>Food Ordering App</strong><br>
-    • Created a restaurant app with real-time order updates and location-based listings.<br>
-    • Enabled cart management, order history, and smooth UI interactions.<br>
-    • Used custom API and followed clean design principles.
-  </li>
-
-  <li>
-    <strong>Wallpaper App</strong><br>
-    • Designed a wallpaper browsing app using <strong>Unsplash API</strong>.<br>
-    • Features included full-screen previews, download/set wallpaper, and offline access.<br>
-    • Implemented category filtering, caching, and smooth image loading.
-  </li>
-</ul>
-
+    
+    <!-- Header -->
+    <header class="profile-header">
+      <img src="profile.png" alt="Profile Photo" class="profile-image" />
+      <div class="profile-text">
+        <h1>Suleman Afzal</h1>
+        <p class="subtitle">Android App Developer</p>
+        <p>
+          Peshawar, Pakistan · 
+          <a href="mailto:afzalsuleman@gmail.com">afzalsuleman@gmail.com</a> · 
+          <a href="tel:+923478297650">+92 347 8297650</a>
+        </p>
+        <div class="links">
+          <a href="https://github.com/sulemanafzaldev" target="_blank">GitHub</a> |
+          <a href="https://linkedin.com/in/suleman-afzal-70a381220/" target="_blank">LinkedIn</a>
+        </div>
+        <!-- <div class="download-cv">
+          <a href="Suleman_Afzal_CV.pdf" class="download-button" download>Download CV</a>
+        </div> -->
       </div>
+    </header>
+
+    <!-- Summary -->
+    <section>
+      <h2>Summary</h2>
+      <p>
+        Detail-oriented and results-driven Android Developer with over 2 years of hands-on experience in building intuitive, high-performance mobile applications using Kotlin and Java. Skilled in modern Android architectures like MVVM, Jetpack Compose, and RESTful API integration. Passionate about crafting clean, maintainable code and delivering smooth, responsive user experiences across a range of devices. Adept at collaborating in agile environments and taking projects from concept to deployment with minimal supervision. Continuously learning and adapting to the latest tools, technologies, and design trends to create impactful mobile solutions.
+      </p>
     </section>
 
+    <!-- Projects -->
     <section>
-      <h2>Education</h2>
-      <p><strong>Bachelor of Science in Computer Science</strong> — Bacha Khan University (2017 – 2021)</p>
-    </section>
+      <h2>Projects</h2>
+      <ul style="line-height: 1.8; font-size: 16px;">
 
-    <section>
-      <h2>Technical Skills</h2>
-      <ul class="skills">
-        <li>Kotlin, Java</li>
-        <li>MVVM, Jetpack Compose, Room, LiveData</li>
-        <li>Android Studio, Git, Firebase, Retrofit</li>
-        <li>REST APIs, Material Design, Postman</li>
-        <li>Figma, XML UI, Data Binding</li>
+        <li>
+          <strong>Weather App</strong><br>
+          • Developed a modern weather app using <strong>MVVM architecture</strong> and <strong>Jetpack Compose</strong>.<br>
+          • Integrated real-time weather data via <strong>OpenWeatherMap API</strong> with location access.<br>
+          • Implemented hourly/daily forecasts, city search, and dynamic weather icons.<br>
+          • Ensured a responsive, clean UI compatible across multiple devices.
+        </li>
+
+        <li>
+          <strong>News App</strong><br>
+          • Built a dynamic news app powered by <strong>NewsAPI</strong> for breaking news and headlines.<br>
+          • Added category filters (Tech, Health, Sports), search functionality, and bookmarking.<br>
+          • Used <strong>RecyclerView, ViewModel</strong>, and <strong>LiveData</strong> for smooth content updates.<br>
+          • Integrated offline caching and article sharing via Room and Intent APIs.
+        </li>
+
+        <li>
+          <strong>Darzi App</strong><br>
+          • Built a tailor order management app using <strong>Firebase Firestore</strong> for real-time database and <strong>Firebase Storage</strong> for image uploads.<br>
+          • Enabled CRUD operations for customer orders, delivery tracking, and status updates.<br>
+          • Integrated <strong>MVVM architecture</strong> with <strong>Hilt</strong> and <strong>ViewModel + LiveData</strong> for clean and scalable code.<br>
+          • Designed a modern UI using <strong>Material Design</strong> and <strong>DataBinding</strong>.
+        </li>
+
+        <li>
+          <strong>E-Learning App (Yeri App)</strong><br>
+          • Built a module-based learning app where each module contains its own quizzes and progress tracking.<br>
+          • Integrated with a custom REST API and used Hilt for dependency injection.<br>
+          • Implemented a personalized user dashboard and a modular, scalable architecture.
+        </li>
+
+        <li>
+          <strong>Food Ordering App</strong><br>
+          • Created a restaurant app with real-time order updates and location-based listings.<br>
+          • Enabled cart management, order history, and smooth UI interactions.<br>
+          • Used custom API and followed clean design principles.
+        </li>
+
+        <li>
+          <strong>Wallpaper App</strong><br>
+          • Designed a wallpaper browsing app using <strong>Unsplash API</strong>.<br>
+          • Features included full-screen previews, download/set wallpaper, and offline access.<br>
+          • Implemented category filtering, caching, and smooth image loading.
+        </li>
+
       </ul>
     </section>
 
+    <!-- Certifications -->
     <section>
       <h2>Certifications</h2>
       <ul class="certifications">
-      <p><strong>Android App Development</strong> — NAVTTC (2022)</p>
-      <p><strong> Jr FronEnd Developer</strong> — NGEN (2023)</p>
+        <li><strong>Android App Development</strong> — NAVTTC (2022)</li>
+        <li><strong>Jr Frontend Developer</strong> — NGEN (2023)</li>
       </ul>
     </section>
 
+    <!-- Hobbies -->
+    <section>
+      <h2>Hobbies & Interests</h2>
+      <ul class="hobbies-list">
+        <li>🏀 Playing sports like cricket to stay active and build teamwork skills.</li>
+        <li>💻 Exploring new programming languages and development frameworks.</li>
+        <li>📚 Reading tech blogs and staying updated with emerging technologies.</li>
+        <li>🌍 Contributing to open-source projects and collaborating with the developer community.</li>
+        <li>✈️ Traveling to experience new cultures and broaden my perspective.</li>
+      </ul>
+    </section>
 
-<section class="section">
-  <h2 class="section-title">Hobbies & Interests</h2>
-  <ul class="hobbies-list">
-    <li>🏀 Playing sports like cricket to stay active and build teamwork skills.</li>
-    <li>💻 Exploring new programming languages and development frameworks.</li>
-    <li>📚 Reading tech blogs and staying updated with emerging technologies.</li>
-    <li>🌍 Contributing to open-source projects and collaborating with the developer community.</li>
-    <li>✈️ Traveling to experience new cultures and broaden my perspective.</li>
-  </ul>
-</section>
+    <!-- References -->
+    <section>
+      <h2>References</h2>
+      <div class="reference-container">
+        <div class="reference-box">
+          <strong>Mr. Imran Azim</strong><br>
+          Team Lead & Web/Application Developer<br>
+          <strong>Phone:</strong> <a href="tel:+923169558584">+92 316 9558584</a><br>
+          <strong>Email:</strong> <a href="mailto:imranazim99@gmail.com">imranazim99@gmail.com</a>
+        </div>
 
-<section class="section">
-  <h2 class="section-title">References</h2>
-  <div class="reference-container">
+        <div class="reference-box">
+          <strong>Mr. Tayyab ur Rahman Khattak</strong><br>
+          Full Stack Developer<br>
+          <strong>Phone:</strong> <a href="tel:+923495336214">+92 349 5336214</a><br>
+          <strong>Email:</strong> <a href="mailto:tayyabktk2002@gmail.com">tayyabktk2002@gmail.com</a>
+        </div>
+      </div>
+    </section>
 
-      <div class="reference-box">
-      <strong>Mr.Imran Azim</strong><br>
-      Team Lead & Web/Application Developer<br>
-      <strong>Phone:</strong> +92 316 9558584<br>
-      <strong>Email:</strong> imranazim99@gmail.com
-    </div>
-
-      <div class="reference-box">
-      <strong>Mr. Murtaza Khan</strong><br>
-      BackEnd Developer<br>
-      <strong>Phone:</strong> +92 333 9479967<br>
-      <strong>Email:</strong> murtaza.com
-    </div>
-  
-
-      <section>
+    <!-- Languages -->
+    <section>
       <h2>Languages</h2>
       <ul class="languages">
         <li>English (Fluent)</li>
         <li>Urdu (Fluent)</li>
         <li>Pushto (Native)</li>
       </ul>
-    </section> 
+    </section>
 
-  </div>
-</section>
-
-
-
-
-
-</section>
-
-
-
+    <!-- Footer -->
     <footer>
       <p>© 2025 Suleman Afzal. All rights reserved.</p>
     </footer>
+
   </div>
 </body>
-
 </html>
-
-

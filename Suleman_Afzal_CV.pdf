@@ -1,0 +1,62 @@
+Profile Photo
+Suleman Afzal
+Android App Developer
+
+Peshawar, Pakistan · afzalsuleman@gmail.com · +92 347 8297650
+
+GitHub | LinkedIn
+Download CV
+Summary
+Detail-oriented and results-driven Android Developer with over 2 years of hands-on experience in building intuitive, high-performance mobile applications using Kotlin and Java. Skilled in modern Android architectures like MVVM, Jetpack Compose, and RESTful API integration. Passionate about crafting clean, maintainable code and delivering smooth, responsive user experiences across a range of devices. Adept at collaborating in agile environments and taking projects from concept to deployment with minimal supervision. Continuously learning and adapting to the latest tools, technologies, and design trends to create impactful mobile solutions.
+
+Projects
+Weather App
+• Developed a modern weather app using MVVM architecture and Jetpack Compose.
+• Integrated real-time weather data via OpenWeatherMap API with location access.
+• Implemented hourly/daily forecasts, city search, and dynamic weather icons.
+• Ensured a responsive, clean UI compatible across multiple devices.
+News App
+• Built a dynamic news app powered by NewsAPI for breaking news and headlines.
+• Added category filters (Tech, Health, Sports), search functionality, and bookmarking.
+• Used RecyclerView, ViewModel, and LiveData for smooth content updates.
+• Integrated offline caching and article sharing via Room and Intent APIs.
+Darzi App
+• Built a tailor order management app using Firebase Firestore for real-time database and Firebase Storage for image uploads.
+• Enabled CRUD operations for customer orders, delivery tracking, and status updates.
+• Integrated MVVM architecture with Hilt and ViewModel + LiveData for clean and scalable code.
+• Designed a modern UI using Material Design and DataBinding.
+E-Learning App (Yeri App)
+• Built a module-based learning app where each module contains its own quizzes and progress tracking.
+• Integrated with a custom REST API and used Hilt for dependency injection.
+• Implemented a personalized user dashboard and a modular, scalable architecture.
+Food Ordering App
+• Created a restaurant app with real-time order updates and location-based listings.
+• Enabled cart management, order history, and smooth UI interactions.
+• Used custom API and followed clean design principles.
+Wallpaper App
+• Designed a wallpaper browsing app using Unsplash API.
+• Features included full-screen previews, download/set wallpaper, and offline access.
+• Implemented category filtering, caching, and smooth image loading.
+Certifications
+Android App Development — NAVTTC (2022)
+Jr Frontend Developer — NGEN (2023)
+Hobbies & Interests
+🏀 Playing sports like cricket to stay active and build teamwork skills.
+💻 Exploring new programming languages and development frameworks.
+📚 Reading tech blogs and staying updated with emerging technologies.
+🌍 Contributing to open-source projects and collaborating with the developer community.
+✈️ Traveling to experience new cultures and broaden my perspective.
+References
+Mr. Imran Azim
+Team Lead & Web/Application Developer
+Phone: +92 316 9558584
+Email: imranazim99@gmail.com
+Mr. Tayyab ur Rahman Khattak
+Full Stack Developer
+Phone: +92 349 5336214
+Email: tayyabktk2002@gmail.com
+Languages
+English (Fluent)
+Urdu (Fluent)
+Pushto (Native)
+© 2025 Suleman Afzal. All rights reserved.
